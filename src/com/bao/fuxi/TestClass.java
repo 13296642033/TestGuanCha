@@ -2,10 +2,10 @@ package com.bao.fuxi;
 
 public class TestClass {
 	public static void main(String[] args) {
-		// ²âÊÔgitÌá½»´úÂë
+		//è¿™æ˜¯utf-8çš„æ³¨é‡Šä»£ç 
 		Maz m = new Maz();
-		PeopleObs p = new PeopleObs("ÍÛ¹ş¹ş");
-		PeopleObs p2 = new PeopleObs("Ë¬ÍáÍá");
+		PeopleObs p = new PeopleObs("ÃÃ›Â¹Ã¾Â¹Ã¾");
+		PeopleObs p2 = new PeopleObs("Ã‹Â¬ÃÃ¡ÃÃ¡");
 		m.addM(p);
 		m.addM(p2);
 		m.notifyM();
